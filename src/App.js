@@ -23,7 +23,6 @@ class App extends React.Component {
           eventHours="Hours &rarr; 24/7/365"
           eventTimeToLocation="Time &rarr; 1h 37m"
           eventDistanceToLocation="Distance &rarr; 28.1 mi"
-          eventRoute=""
           eventImage={psound}
           eventRoute="https://goo.gl/AT3kSw"
         />
