@@ -24,18 +24,20 @@
     padding: 1rem;
     width: 100%;
 }
-.event__hours {
-
-}
-.event__distance {
-
-}
 .event__image {
     border: 2px solid var(--tiber);
     overflow: hidden;
     width: 100%;
 }
 .event__line {
-    color: var(--tiber);
+    color: var(--gainsboro);
     width: 75%;
+}
+.event__route {
+    color: var(--tiber);
+    font-family: var(--body);
+    font-size:14px;
+    padding: 1rem;
+    width: 100%;
+    text-decoration: none;
 }

@@ -10,11 +10,13 @@ class Event extends React.Component {
 
                 <article className="event__container">
                     <p className="event__hours">{this.props.eventHours}</p>
-                    <p className="event__distance">{this.props.eventDistance}</p>
+                    <p className="event__distance">{this.props.eventTimeToLocation}</p>
+                    <p className="event__distance">{this.props.eventDistanceToLocation}</p>
+                    <a href={this.props.eventRoute} target="_blank" className="event__route">Click for route</a>
                 </article>
 
                 <article className="event__container">
-                    <img src={this.props.eventImage} alt="Cool Image!" className="event__image" />
+                    <img src={this.props.eventImage} alt={this.props.eventTitle} className="event__image" />
                 </article>
 
                 <hr className="event__line"></hr>
