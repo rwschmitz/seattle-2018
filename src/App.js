@@ -9,6 +9,8 @@ import chinatown from './img/chinatown.jpg';
 import mtrainer from './img/mtrainer.jpg';
 import psound from './img/psound.jpg';
 import science from './img/science.jpg';
+import chi from './img/chi.jpg';
+import pikeplacemarket from "./img/pikeplacemarket.jpg"
 
 class App extends React.Component {
   render() {
@@ -65,6 +67,22 @@ class App extends React.Component {
           eventDistanceToLocation="Distance &rarr; 66.8 mi"
           eventImage={mtrainer}
           eventRoute="https://goo.gl/gWVErg"
+        />
+        <Event
+          eventTitle="Chihuly Garden and Glass"
+          eventHours="Hours: 10a - 7p"
+          eventTimeToLocation="Time &rarr; 0h 14m (walk)"
+          eventDistanceToLocation="Distance &rarr; 0.7 mi"
+          eventImage={chi}
+          eventRoute="https://goo.gl/V6mxu4"
+        />
+        <Event
+          eventTitle="Pike Place Market"
+          eventHours="Hours: 9a - 5p"
+          eventTimeToLocation="Time &rarr; 0h 8m"
+          eventDistanceToLocation="Distance &rarr; 1.1 mi"
+          eventImage={pikeplacemarket}
+          eventRoute="https://goo.gl/4yXvvt"
         />
       </div>
     );
