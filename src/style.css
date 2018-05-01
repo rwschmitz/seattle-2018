@@ -1,0 +1,33 @@
+/* Define Variables */
+:root {
+  /* Colors */
+  --arsenic: #3d364e;
+  --ebony: #5d5e60;
+  --gainsboro: #e0e1de;
+  --onyx: #353b3c;
+  --spring-green: #00ff83;
+  --tiber: #0b3c49;
+  --ube: #8676aa;
+  --white: #fff;
+  /* Fonts */
+  --heading: 'Lato', sans-serif;
+  --body: 'Merriweather', serif
+}
+::selection {
+  background: var(--ebony);
+  color: var(--white);
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, :after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}

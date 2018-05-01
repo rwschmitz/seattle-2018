@@ -1,0 +1,23 @@
+.header__wrapper {
+    background-color: var(--spring-green);
+    color: var(--tiber);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: var(--heading);
+    font-size: 14px;
+    padding: 1rem 0;
+    width: 100%;
+}
+.header__title {
+    padding-bottom: 1rem;
+    text-align: center;
+    width: 100%;
+}
+.header__image {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+    border-radius: 50%;
+    border: 2px solid var(--white);
+}

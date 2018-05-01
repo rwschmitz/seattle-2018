@@ -1,0 +1,41 @@
+.event__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.event__container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    width: 50%;
+}
+.event__title {
+    font-family: var(--heading);
+    font-size: 16px;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+}
+.event__hours,
+.event__distance {
+    font-family: var(--body);
+    font-size:14px;
+    padding: 1rem;
+    width: 100%;
+}
+.event__hours {
+
+}
+.event__distance {
+
+}
+.event__image {
+    border: 2px solid var(--tiber);
+    overflow: hidden;
+    width: 100%;
+}
+.event__line {
+    color: var(--tiber);
+    width: 75%;
+}
